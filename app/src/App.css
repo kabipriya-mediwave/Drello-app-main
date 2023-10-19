@@ -1,0 +1,67 @@
+body {
+  background-color: #2970a2;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+blockquote {
+  margin: 0;
+}
+
+blockquote {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+.total-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.taskCard {
+  margin: 10px;
+  background-color: #ccc;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.time {
+  color: black;
+}
+.total-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin: 10px;
+}
+.textarea {
+  width: 98%;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+  margin: 8px 0;
+  border: none;
+  outline: none;
+}
+.button-div {
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: end;
+}
+.button {
+}
+.add {
+  color: white;
+
+  margin-left: 12px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: baseline;
+}
+.main-header h1 {
+  margin-left: 24px;
+  color: #cce0ff;
+}
